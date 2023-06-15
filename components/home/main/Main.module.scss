@@ -1,0 +1,10 @@
+@import "styles/variablies.scss";
+@import "styles/mixins.scss";
+
+.title_wrap {
+  display: flex;
+}
+
+.title {
+  @include main-title
+}
