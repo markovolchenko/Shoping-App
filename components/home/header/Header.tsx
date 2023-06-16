@@ -6,7 +6,7 @@ import {useState} from "react";
 
 
 const Header = () => {
-    const [modalActive, setModalActive] = useState(false)
+    const [modalActive, setModalActive] = useState<boolean>(false)
     return (
         <>
             <div className='main-container'>

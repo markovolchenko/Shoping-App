@@ -1,4 +1,6 @@
-import {Autoplay} from "swiper";
+import SwiperCore, {Autoplay} from 'swiper'
+
+SwiperCore.use([Autoplay])
 
 
 export const brandSliderConfig = {
